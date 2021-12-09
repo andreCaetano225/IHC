@@ -1,0 +1,29 @@
+.enquete {
+    text-align: center;
+
+    button {
+        margin-top: 50px;
+        width: 139px;
+        height: 66px;
+        margin-right: 20px;
+        background-color: #F3F5F7;
+        border-radius: 5px;
+        border: 2px solid #2BB27B;
+        transition: 0.4s;
+
+        &:active {
+            background-color: #2BB27B;
+        }
+
+
+
+
+        img {
+            height: 30px;
+            width: 30px;
+            color: #fff;
+
+
+        }
+    }
+}

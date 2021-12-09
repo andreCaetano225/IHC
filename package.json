@@ -1,0 +1,30 @@
+{
+  "name": "ihc",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@trendyol-js/react-carousel": "^2.0.0",
+    "@types/react-burger-menu": "^2.8.2",
+    "framer-motion-carousel": "^1.0.6",
+    "next": "12.0.4",
+    "react": "17.0.2",
+    "react-burger-menu": "^3.0.6",
+    "react-dom": "17.0.2",
+    "react-responsive-carousel": "^3.2.22",
+    "responsive-navbar-react": "^1.2.1",
+    "sass": "^1.44.0",
+    "swiper": "^7.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "16.11.11",
+    "@types/react": "17.0.37",
+    "eslint": "7",
+    "eslint-config-next": "12.0.4",
+    "typescript": "4.5.2"
+  }
+}

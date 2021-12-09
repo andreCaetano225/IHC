@@ -1,0 +1,46 @@
+.HeaderNavbar {
+    width: 100%;
+    margin-top: 5px;
+    background-color: #FFF;
+
+    div {
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.NavbarColor {
+    width: 100%;
+    margin-top: 30px;
+
+    .NavbarOptions {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+        // margin-left: 200px;
+
+
+        h1 {
+            font-size: 20px;
+            padding: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .HeaderNavbar {
+        display: none;
+    }
+
+    .NavbarColor {
+        display: none;
+    }
+
+    .NavbarOptions {
+        display: none;
+    }
+}

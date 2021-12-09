@@ -1,0 +1,22 @@
+.FinalyComponent {
+    height: 300px;
+    background-color: #002B39;
+    margin-bottom: -36px;
+    color: #FFF;
+    text-align: center;
+
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h3 {
+            padding: 10px;
+        }
+    }
+
+    p {
+        margin-top: 11px;
+    }
+
+}
